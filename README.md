@@ -24,3 +24,16 @@ pandas>=2.0
 plotly>=5.18
 anthropic>=0.40
 ```
+
+#### 4. Deploying New Projects
+Copy and paste this div block and edit the relevant fields:
+
+```html
+<a class="project-card" href="https://mia-smoothed-bonus.streamlit.app/" target="_blank">
+    <img src="images/bonus_fund.png" alt=bonus_fund" />
+    <div class="project-title">Smoothed Bonus Fund Analytics Platform</div>
+</a>
+```
+
+1. Change `href="https://mia-smoothed-bonus.streamlit.app/`, `src="images/bonus_fund.png" alt=bonus_fund"`, `<div class="project-title">Smoothed Bonus Fund Analytics Platform</div>`
+2. Deploy to [https://share.streamlit.io/]
