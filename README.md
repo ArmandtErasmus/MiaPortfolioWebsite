@@ -16,4 +16,11 @@ The projects must all have the following structure:
 3. requirements.txt - this is required since a streamlit app requires the libraries your project is built on to be installed, if they are not installed, streamlit reads the requirements.txt file and downloads them automatically --- this prevents any errors on project launch.
 
 #### requirements.txt
-
+The requirements.txt should look like this:
+```python
+streamlit>=1.30
+numpy>=1.24
+pandas>=2.0
+plotly>=5.18
+anthropic>=0.40
+```
