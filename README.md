@@ -1,13 +1,13 @@
 # Mia's Portfolio Website
 
-### Structure
+### 1. Structure
 index.html - landing page, contains links to linkedin, resume, github and projects(.html)
 CNAME - contains reference to www record and target mialangenhoven.com
 projects - folder with project folders, images folders and projects.html
 projects.html - page where project link buttons are hosted
 images - folder with project images to act as thumbnails on projects.html page
 
-#### Uploading Projects
+#### 2. Uploading Projects
 Each project must have its own folder within the projects folder (e.g. projects/project_01)
 
 ##### The projects must all have the following structure:
@@ -15,7 +15,7 @@ Each project must have its own folder within the projects folder (e.g. projects/
 2. app.py - this is the main streamlit app executable, it must be called "app" e.g. app.py and is recognised by streamlit when deploying from a repo
 3. requirements.txt - this is required since a streamlit app requires the libraries your project is built on to be installed, if they are not installed, streamlit reads the requirements.txt file and downloads them automatically --- this prevents any errors on project launch.
 
-#### requirements.txt
+#### 3. requirements.txt
 The requirements.txt should look like this:
 ```python
 streamlit>=1.30
