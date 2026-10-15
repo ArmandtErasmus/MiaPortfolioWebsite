@@ -37,3 +37,6 @@ Copy and paste this div block and edit the relevant fields:
 
 1. Change `href="https://mia-smoothed-bonus.streamlit.app/`, `src="images/bonus_fund.png" alt=bonus_fund"`, `<div class="project-title">Smoothed Bonus Fund Analytics Platform</div>`
 2. Deploy to [https://share.streamlit.io/]
+
+#### 5. Github Deployment Actions
+1. Ensure constant uptime in future
